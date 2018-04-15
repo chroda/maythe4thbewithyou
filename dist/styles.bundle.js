@@ -3,7 +3,7 @@ webpackJsonp(["styles"],{
 /***/ "./node_modules/raw-loader/index.js!./node_modules/postcss-loader/lib/index.js??embedded!./node_modules/sass-loader/lib/loader.js??ref--8-3!./src/styles.scss":
 /***/ (function(module, exports) {
 
-module.exports = "body {\n  background-color: black;\n  color: whitesmoke;\n  text-align: center; }\n"
+module.exports = "@import url(https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css);\n/* RGB */\n@font-face {\n  font-family: 'ETHNOCENTRIC-RG';\n  font-style: normal;\n  font-weight: 400;\n  src: local(\"/src/assets/fonts/ETHNOCENTRIC-RG.TTF\") format(\"ttf\"); }\nbody {\n  background-color: black;\n  color: #ffe81f;\n  text-align: center; }\n"
 
 /***/ }),
 
