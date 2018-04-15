@@ -1,5 +1,10 @@
+@import url(https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css);
+@import 'assets/sass/colors.scss';
+@import 'assets/sass/typografy.scss';
+
 body {
-  background-color: black;
-  color: whitesmoke;
+  background-color: $color-palette-black;
+  color: $color-palette-yellow;
   text-align: center;
+  // font-family: 'ETHNOCENTRIC-RG';
 }

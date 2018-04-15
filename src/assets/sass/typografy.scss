@@ -1,0 +1,11 @@
+@font-face {
+  font-family: 'ETHNOCENTRIC-RG';
+  font-style: normal;
+  font-weight: 400;
+  src: local('/src/assets/fonts/ETHNOCENTRIC-RG.TTF') format('ttf');
+}
+
+//--- Font Family ---//
+$font-mix: helvetica, sans-serif;
+$font-ethnocentric-rg: 'ETHNOCENTRIC-RG', $font-mix;
+$font-open-sans: 'Open Sans', $font-mix;

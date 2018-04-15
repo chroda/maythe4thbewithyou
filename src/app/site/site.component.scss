@@ -1,16 +1,48 @@
-@import url(https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css);
-
 header{
   height: 200px;
+  background-color: chocolate;
 }
 
 #content{
   width: 800px;
   margin: 0 auto;
+  background-color: cadetblue;
 }
 
 footer{
   position: absolute;
   bottom: 0;
-  height: 200px;
+  height: 400px;
+  width: 100%;
+
+  div.path{
+    height: 100%;
+    width: 100%;
+    background: linear-gradient(to bottom, rgb(134, 134, 134) 0%,white 100%);
+    position: absolute;
+    bottom: 0;
+    background-color: white;
+    clip-path: polygon(48% 0%, 52% 0, 100% 100%, 0% 100%);
+    z-index: 0;
+    p{
+      color: darkgray;
+      position: absolute;
+      right: 35%;
+      bottom: 70px;
+    }
+  }
+
+  img{
+    height: 400px;
+    position: absolute;
+    bottom: 0;
+  }
+
+  $distance-to-border: 160px;
+  img.bb-8{
+    left: $distance-to-border;
+  }
+  img.r2d2{
+    right: $distance-to-border;
+  }
 }
