@@ -1,6 +1,6 @@
 import { AppPage } from './app.po';
 
-describe('swapi App', () => {
+describe('maythe4thbewithyou App', () => {
   let page: AppPage;
 
   beforeEach(() => {
