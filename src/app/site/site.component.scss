@@ -49,16 +49,20 @@ footer{
   }
 
   img{
-    height: 400px;
     position: absolute;
     bottom: 0;
   }
 
+  $height-robots: 300px;
   $distance-to-border: 15%;
   img.bb-8{
-    left: $distance-to-border;
+    height: calc(#{$height-robots} - 50%);
+    right: $distance-to-border;
   }
   img.r2d2{
-    right: $distance-to-border;
+    transform: scaleX(-1);
+    filter: FlipH;
+    height: $height-robots;
+    left: $distance-to-border;
   }
 }
