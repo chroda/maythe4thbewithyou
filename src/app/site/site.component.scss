@@ -12,15 +12,23 @@ header{
 }
 
 #content{
+  position: relative;
+  z-index: 9999;
+  margin:0 auto;
+  min-width: 400px;
   input{
-    min-width: 400px;
+    text-align: center;
     padding: 10px;
     border-radius: 20px;
     border: 0;
-    text-align: center;
     color: darken(yellow, 10);
-    background-color: black;
+    background-color: transparent;
     box-shadow:inset 0 0 3px 1px yellow;
+  }
+  ul{
+    list-style: none;
+    padding: 0;
+    width: auto;
   }
 }
 
