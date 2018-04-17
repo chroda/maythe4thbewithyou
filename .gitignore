@@ -2,7 +2,6 @@
 
 # compiled output
 # /dist # to publish on github
-/dist/index.html
 /dist-server
 /tmp
 /out-tsc
